@@ -2,5 +2,6 @@ package locators;
 
 public class BaseLocators {
 
-	public static final String MENU_ITEM = "//div[contains(@class,'w-container')]//div[@aria-haspopup='menu']/div[text()='%s']";
+	public static final String MENU_ITEMS = "//ul[contains(@class,'noo-topbar-right')]//a";
+    public static final String DISMISS = "//a[text()='Dismiss']";
 }
